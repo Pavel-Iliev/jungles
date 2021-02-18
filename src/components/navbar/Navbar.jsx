@@ -1,6 +1,6 @@
 import './Navbar.css';
-import userIcon from '../assests/account.svg'
-import arrow from '../assests/arrow-blue.svg';
+import userIcon from '../../assests/account.svg'
+import arrow from '../../assests/arrow-blue.svg';
 import { useState } from 'react';
 
 function Navbar() {
