@@ -1,0 +1,144 @@
+.home-header {
+  height: 100vh;
+}
+
+.home-header .container {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+  height: 100%;
+}
+
+.home-header__text {
+  position: absolute;
+  z-index: 2;
+  bottom: 60px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.home-header__text h2 {
+  margin-bottom: 20px;
+}
+
+.slide-2 {
+  color: #fff;
+}
+
+.price.aside  {
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: 900;
+}
+
+.price-main {
+  font-size: 30px;
+  line-height: 1em;
+}
+
+.price-side {
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1em;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.wrap__price {
+  width: 80%;
+  max-width: 320px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.price-right {
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1em;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.home-header__text p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+.home-header .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 20px;
+}
+
+.home-header .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 120px;
+  border-radius: 0;
+  height: 4px;
+  margin: 0 10px;
+  background-color: #fff;
+}
+
+
+@media(min-width: 768px) {
+  .home-header {
+    height: 700px;
+  } 
+  .home-header__text {
+    left: 0;
+    top: 60%;
+    transform: translate(0, -50%);
+    width: auto;
+    text-align: left;
+    justify-content: flex-start;
+  }
+  .wrap__price {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+  }
+  .home-header__text h2 {
+    font-size: 40px;
+  }
+  .home-header__text p {
+    margin: 0 0 20px;
+  }
+  .home-header .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 0;
+    padding: 10px 0 20px;
+  }
+  .home-header .swiper-container-horizontal > .swiper-pagination-bullets::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.4654236694677871) 0%, rgba(0,0,0,0) 100%);
+  z-index: -1;
+  }
+  .home-header .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    opacity: .7;
+    background-color: transparent;
+    width: 40%;
+  }
+  .home-header .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .home-header .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(1):before {
+    content: '1. Nuove. Imperdibili. Per te';
+    display: block;
+    color: #fff;
+    width: 50%;
+  }
+  .home-header .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2):before {
+    content: '2. Sky Netfilx';
+    display: block;
+    color: #fff;
+  }
+}

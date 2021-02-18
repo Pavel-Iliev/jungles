@@ -37,6 +37,7 @@
   border: 0;
   border-radius: 25px;
   padding: 10px 30px;
+  font-size: 12px;
   box-shadow: none;
   text-transform: uppercase;
 }
@@ -46,6 +47,20 @@
   background-color: #1b7cff;
 }
 
+.btn-blue-dark {
+  color: #fff;
+  background-color: #064497;
+}
+
 .disp-flex {
   display: flex;
+}
+
+.title-color {
+  background: linear-gradient(90deg,#ff9e00,red 30.93%,#b5007d 61.67%,#21429c 88.09%,#0071ff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 20px;
 }
