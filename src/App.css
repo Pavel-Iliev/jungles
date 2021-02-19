@@ -52,6 +52,11 @@
   background-color: #064497;
 }
 
+.btn-white {
+  color: #3093ff;
+  background-color: #fff;
+}
+
 .disp-flex {
   display: flex;
 }
