@@ -32,22 +32,22 @@ function Header() {
                 <h2 className="title-color">Sky e Netflix</h2>
                 <div className="wrap__price disp-flex">
                   <div className="price-left">
-                    <div class="price aside disp-flex">
-                      <div class="price-main">
-                        <span class="price-curr">€</span>
-                        <span class="price-int">19</span>
+                    <div className="price aside disp-flex">
+                      <div className="price-main">
+                        <span className="price-curr">€</span>
+                        <span className="price-int">19</span>
                       </div>
-                      <div class="price-side disp-flex">
-                        <span class="price-dec">,90 <span>€</span></span>
-                        <span class="price-per">al mese</span>
+                      <div className="price-side disp-flex">
+                        <span className="price-dec">,90 <span>€</span></span>
+                        <span className="price-per">al mese</span>
                       </div>
                     </div>
                   </div>
                   <div className="price-right disp-flex">
-                    <div class="price-ex ">
+                    <div className="price-ex ">
                       <sup>Per <strong>18 mesi</strong></sup>
                     </div>
-                    <div class="price-ex ">
+                    <div className="price-ex ">
                       anzichè <strong>30€</strong> al mese
                     </div>
                   </div>

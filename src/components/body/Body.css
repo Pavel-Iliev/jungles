@@ -1,0 +1,135 @@
+.body .card,
+.body .trips {
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.body .card {
+  max-width: 320px;
+  margin: 30px auto 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__text {
+  background: linear-gradient(180deg,#000ff5,#00d2ff);  
+  color: #fff;
+}
+
+.card__text h2 {
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.card__text h2 strong {
+  display: block;
+}
+
+.card__text p {
+  padding: 5px 0 20px; 
+}
+
+.card__text .btn {
+  margin-bottom: 25px;
+}
+
+.card__img {
+  position: relative;
+  height: 0;
+  padding-top: 70%;
+}
+
+.body .trips {
+  text-align: center;
+}
+
+.body .trips__wrap {
+  display: flex;
+  flex-direction: column;
+}
+.body .trips__wrap a {
+  display: block;
+  border: 1px solid rgba(0,0,0, .1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.trips__text {
+  padding: 30px;
+}
+
+.trips__text p {
+  font-size: 16px;
+  padding: 0 0 15px;
+}
+
+.trips__text span {
+  color: #007aff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.trips__text span img {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  filter: grayscale(1);
+  opacity: .75;
+  transform: scale(.8);
+}
+
+.trips h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.trips h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+@media(min-width: 768px) {
+  .body .card {
+    flex-direction: row;
+    max-width: 700px;
+  }
+  .card__img {
+    height: 0;
+    padding: 0;
+    height: auto;
+    flex: 0 0 30%;
+  }
+  .card__text {
+    flex: 0 0 70%;
+    background: linear-gradient(90deg,#000ff5,#00d2ff);
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+  .card__text-info {
+    padding: 30px;
+  }
+  .card__text h2 {
+    font-size: 30px;
+  }
+  .card__text p {
+    font-size: 18px;
+  }
+  .btn.btn-white {
+    margin: 0 15px;
+  }
+  .body .trips__wrap {
+    flex-direction: row;
+  }
+
+  .body .trips__wrap a {
+    margin: 0 10px 60px;
+  }
+  .trips__text {
+    min-height: 160px;
+  }
+  .body {
+    padding: 30px 0;
+  }
+}
